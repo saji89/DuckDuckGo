@@ -1,0 +1,17 @@
+{
+"update_url":"http://clients2.google.com/service/update2/crx",
+   "browser_action": {
+      "default_icon": "images/chrome-icon.png",
+      "popup": "index.html"
+   },
+   "default_locale": "en",
+   "description": "__MSG_Description__",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "name": "DuckDuckGo",
+   "permissions": [ "tabs", "http://duckduckgo.com/" ],
+   "version": "1.0.0"
+}
